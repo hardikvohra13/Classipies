@@ -1,0 +1,50 @@
+*{
+box-sizing:border-box;
+}
+body{
+background-color:#f5ef87;
+}
+#container{
+margin:0px;
+background-image: url(recipes.jpg);
+height:450px;
+width:100%;
+background-repeat: no-repeat;
+background-size: 100%;
+display:flex;
+}
+#indian,#chinese,#mexican,#italian,#About,#contact{
+background: rgba(0, 151, 19, 0.6);
+text-align:center;
+color:darkblue;
+padding:20px;
+margin:1px;
+height:70px;
+<!--background-color:black;-->
+}
+#d1{
+margin:0px;
+padding-left:50px;
+padding-right:50px;
+text-align: justify;
+  text-justify: inter-word;
+height:auto;
+}
+p{
+padding-left:70px;
+padding-right:70px;
+}
+
+.quarantine{
+color:blue;
+}
+.cook{
+background-color:yellow;
+}
+   .footer{
+left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#FA6B64	;
+   color: white;
+}
